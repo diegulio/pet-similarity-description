@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pet_similarity_description"
+version = "0.1.0"
+description = ""
+authors = ["diegulio <68176588+diegulio@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+black = "^22.12.0"
+isort = "^5.10.1"
+fastapi = "^0.88.0"
+uvicorn = "^0.20.0"
+scipy = "^1.9.3"
+sentence-transformers = "^2.2.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
